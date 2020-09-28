@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/map_choice_mubler_type"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/s_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/circle"
+            android:src="@drawable/mubler_s"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/s_button"
+            android:text="@string/map_mubler_s_name"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/l_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/circle"
+            android:src="@drawable/mubler_m"
+            android:layout_toEndOf="@id/s_button"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l_button"
+            android:layout_toEndOf="@id/s_button"
+            android:text="@string/map_mubler_m_name"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/xl_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/circle"
+            android:src="@drawable/mubler_l"
+            android:layout_toEndOf="@id/l_button"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xl_button"
+            android:layout_toEndOf="@id/l_button"
+            android:text="@string/map_mubler_l_name"
+            android:layout_marginStart="25dp"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonCreateOffer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/map_button_create_offer" />
+
+</LinearLayout>

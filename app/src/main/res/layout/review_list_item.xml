@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/review_from"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_margin="6dp"
+            android:text="De : Nicolas Bisson"/>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/review_comment_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:inputType="textMultiLine"
+            android:textStyle="italic"
+            android:text="'Culte'"/>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/review_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="Le 14/06/2019 à 12:30"/>
+
+        <RatingBar
+            android:id="@+id/review_rating_static"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:isIndicator="true"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

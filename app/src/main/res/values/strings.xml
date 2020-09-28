@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Mubler</string>
+    <string name="logout">Déconnexion</string>
+    <string name="help">Aide</string>
+    <string name="paiement">Paiement</string>
+
+    <!-- CONNECTION -->
+    <string name="login_button_connection">Connexion</string>
+    <string name="login_button_register">Nouveau sur Mubler ? Inscrivez vous</string>
+    <string name="login_button_pwd_recovery">Oublié ?</string>
+    <string name="login_hint_email">Email</string>
+    <string name="login_hint_password">Mot de passe</string>
+    <string name="login_success">login success</string>
+    <string name="login_empty_field">Ce champs est nécessaire</string>
+    <string name="login_weak_password_err">Mot de passe trop court, entrez au moins 6 caractères</string>
+    <string name="login_invalid_credentials">Authentication échouée, vérifiez votre email ou mot de passe</string>
+    <string name="login_unknown">Authentication échouée !</string>
+
+
+    <!-- REGISTER -->
+    <string name="register_next_step">Suivant</string>
+    <string name="register_hint_firstname">Nom</string>
+    <string name="register_hint_lastname">Prénom</string>
+    <string name="register_hint_email">Email</string>
+    <string name="register_hint_confirm_email">Confirm Email</string>
+    <string name="register_hint_phone">Téléphone</string>
+    <string name="register_hint_password">Mot de Passe</string>
+    <string name="register_hint_confirmation">Confirmer mot de passe</string>
+    <string name="register_date_of_birth">Date de naissance - DD/MM/YYYY</string>
+    <string name="register_button_register">Inscription</string>
+    <string name="register_button_login">Déjà inscrit ? Connectez vous. </string>
+    <string name="register_password_confirmation_error">Vos mots de passe ne correspondent pas</string>
+    <string name="register_email_confirmation_error">Vos emails ne correspondent pas</string>
+    <string name="register_weak_password_err">Mot de passe trop court, entrez au moins 6 caractères</string>
+    <string name="register_email_already_used_error">Email déjà utilisé</string>
+    <string name="register_invalid_email">Email invalide</string>
+    <string name="register_invalid_date_of_birth">Date de naissance invalide</string>
+    <string name="register_empty_field">Ce champs est nécessaire</string>
+    <string name="register_unknown">L\'inscription a échouée !</string>
+    <string name="register_success">Inscription réussie</string>
+
+
+    <!--- MAP -->
+    <string name="map_access_token"></string>
+    <string name="map_toolbar_name">Mubler</string>
+    <string name="map_user_location_permission_explanation">Acceptez les autorisations</string>
+    <string name="map_user_location_permission_not_granted">Veuillez accepter les autorisations pour accéder à la map</string>
+    <string name="map_button_create_offer">Faire une demande</string>
+    <string name="map_button_delete_offer">Annuler la demande</string>
+    <string name="map_choice_mubler_type">Choisissez le type du véhicule :</string>
+    <string name="map_mubler_s_name">Mubler S</string>
+    <string name="map_mubler_m_name">Mubler L</string>
+    <string name="map_mubler_l_name">Mubler XL</string>
+
+
+    <!-- CREATE OFFER -->
+    <string name="offer_origin">Départ</string>
+    <string name="offer_destination">Destination</string>
+    <string name="offer_date">Date - DD/MM/YYYY</string>
+    <string name="offer_button_validation">Valider</string>
+    <string name="offer_button_delete">Annuler</string>
+    <string-array name="offer_mubler_type">
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+    </string-array>
+    <string name="title_activity_request_recap">RequestRecapActivity</string>
+    <string name="title_activity_review">ReviewActivity</string>
+    <string name="title_activity_profile_details">ProfileDetailsActivity</string>
+
+</resources>

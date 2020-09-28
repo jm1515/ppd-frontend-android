@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ppd.com.mubler">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name=".MainApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".ui.details.ProfileDetailsActivity"
+            android:label="@string/title_activity_profile_details" />
+        <activity
+            android:name=".ui.review.ReviewActivity"
+            android:label="@string/title_activity_review" />
+        <activity
+            android:name=".ui.request_recap.RequestRecapActivity"
+            android:label="@string/title_activity_request_recap" />
+        <activity
+            android:name=".ui.splashscreen.SplashscreenActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.request_end.RequestEndActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.history.HistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.history.HistoryMublerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.history.ReviewHistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.history.ReviewHistoryWriterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.map.MapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.register.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.map.OfferActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

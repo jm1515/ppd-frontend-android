@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="android:statusBarColor">@color/primaryDarkColor</item>
+        <item name="android:navigationBarColor">@color/primaryDarkColor</item>
+        <item name="colorControlHighlight">@color/primaryColor</item>
+        <item name="android:button">@color/primaryColor</item>
+
+        <item name="android:colorAccent">@color/primaryTextColor</item>
+    </style>
+
+</resources>
